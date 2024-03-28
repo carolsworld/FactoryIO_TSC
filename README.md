@@ -24,7 +24,7 @@ You will need the following hardware and software for setting up the Digital Twi
 
 ### (a) Setup OpenPLC on Raspberry Pi
 1) Install and run Raspberry Pi OS ([Debian Bullseye with Raspberry Pi Desktop](https://www.raspberrypi.com/software/operating-systems/) on Raspberry Pi 4 
-2) Install and setup OpenPLC Runtime on Raspberry Pi 4. Refer to [installation manual](https://autonomylogic.com/docs/installing-openplc-runtime-on-linux-systems/) and [OpenPLC YouTube videos](https://www.youtube.com/@openplc/videos) for explanation. Refer to [settings for Slave Device on OpenPLC](OpenPLCSlave.png) for more details.
+2) Install and setup OpenPLC Runtime on Raspberry Pi 4. Refer to [installation manual](https://autonomylogic.com/docs/installing-openplc-runtime-on-linux-systems/) and [OpenPLC YouTube videos](https://www.youtube.com/@openplc/videos) for explanation. Refer to [settings for Slave Device on OpenPLC](OpenPLCslave.PNG) for more details.
 3) Unzip [FactoryIO_E1.zip](FactoryIO_E1.zip) to get the Factory I/O runtime file, upload the program named 655575.st onto OpenPLC Runtime.
 
 ### (b) Setup Factory I/O 
