@@ -31,7 +31,10 @@ You will need the following hardware and software for setting up the Digital Twi
 1) Install and run Factory I/O on computer that meets the [system requirements](https://factoryio.com/start-trial)
 2) Download and open the [FactoryIOE1_5V.factoryio](FactoryIOE1_5V.factoryio). It is a quality checking scene that we have created.
 3) Start the connection and run the file. Refer to the [UWECyber YouTube playlist](https://www.youtube.com/playlist?list=PLqaj1AbWsq7ueS2nn_PImJG2-4CWEPxNQ) if you want to learn more about how to run your own Factory I/O scenes.
-4) Turn on Web server in Factory I/O with the app.web_server = True on [Factory I/O's console](https://docs.factoryio.com/manual/console/). 
+4) Turn on Web server in Factory I/O with the app.web_server = True on [Factory I/O's console](https://docs.factoryio.com/manual/console/).
+
+*The Core Elements of Factory I/O Testbed*
+![The Core Elements of Factory I/O Testbed](CoreElements.jpg)
 
 # Threat Simulation and Data Collection
 1) You can [manually control the scene](https://docs.factoryio.com/getting-started/manually-controlling-scene/) or via the OpenPLC Monitoring page.
@@ -41,6 +44,25 @@ You will need the following hardware and software for setting up the Digital Twi
 5) Check if there are any missing records or errors. If no, the csv file is ready for your threat detection.
 6) The file ready for you to train your threat detection tool is named [factoryiodata.csv](factoryiodata.csv).
 
-# Threat Detection
-We have used [sktime](https://github.com/sktime/sktime) to train and test time series classifers with the csv dataset. Refer to the Google Colab notebooks (.ipynb files) in this GitHub for the details.
+*Automation Task in the Factory I/O Quality Checking Scene*
+![Automation Task in the Factory I/O Quality Checking Scene](automationtask.JPG)
 
+# Threat Detection
+We have used [sktime](https://github.com/sktime/sktime) to train and test time series classifers with the csv dataset. Refer to the Google Colab notebooks (.ipynb files) in this GitHub for the details. 
+
+Our detection tool is trying to detect the following cases:
+- Label #1 - 'Sensors_NormalSpeed': use potentiometer with normal conveyor speed.
+- Label #2 - 'Sensors_TooSlowOrStop':use potentiometer with conveyor speed too slow or stopped.
+- Label #3 - 'Sensors_Oscillate': use potentiometer with conveyor speed up and down illogically.
+- Label #4 - 'Sensors_WrongDirection': use potentiometer with conveyor going the reverse direction.
+- Label #5 - 'ForcedActuator_Normal': force actuator value with normal conveyor speed.
+- Label #6 - 'ForcedActuator_TooSlowOrStop': force actuator value with conveyor speed too slow or stopped.
+- Label #7 - 'ForcedActuator_TooFast': force actuator value with conveyor speed too fast.
+- Label #8 - 'ForcedActuator_ExtremelyFast': force actuator value with conveyor speed extremely fast.
+- Label #9 - 'ForcedActuator_Oscillate': force actuator value with conveyor speed up and down illogically.
+- Label #10 - 'ForcedActuator_WrongDirection': force actuator value with conveyor going the reverse direction.
+
+Refer to [Model Pickle.zip](Model%20Pickle.zip) for the saved model.
+
+*Impact of Manipulating the Conveyor Belt's Speed or Direction*
+![Impact of Manipulating the Conveyor Belt's Speed or Direction](VisualiseImpact.JPG)
