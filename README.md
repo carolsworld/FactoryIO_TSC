@@ -6,6 +6,12 @@ Our research aims to overcome the limitations of physical testbeds and challenge
 
 By leveraging Digital Twins for data-driven analysis, this study proposes the use of supervised DL techniques for accurate threat detection and classification in CPS within smart manufacturing. 
 
+# [New] Sample Video on the Simulation conducted in Factory I/O 
+https://vimeo.com/1028776456
+
+# [New] Research Paper
+C. Lo, T. Y. Win, Z. Rezaeifar, Z. Khan and P. Legg, "Digital Twins of Cyber Physical Systems in Smart Manufacturing for Threat Simulation and Detection with Deep Learning for Time Series Classification," 2024 29th International Conference on Automation and Computing (ICAC), Sunderland, United Kingdom, 2024, pp. 1-6, doi: 10.1109/ICAC61394.2024.10718749. keywords: {Deep learning;Time series analysis;Threat assessment;Data models;Digital twins;Safety;Fourth Industrial Revolution;Security;Scenario generation;Smart manufacturing;digital twin;testbed;cyber security;threat simulation and detection;cyber physical systems},
+
 # Overview of the Digital Twins Testbed Setup
 
 This GitHub repository provides a Proof-of-Concept (POC) about the setup of the Digital Twins testbed. The setup guide enables the cybersecurity community to replicate and broaden our methodology, thus enhancing security measures in smart manufacturing ecosystems.
