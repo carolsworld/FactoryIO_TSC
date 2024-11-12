@@ -10,7 +10,9 @@ By leveraging Digital Twins for data-driven analysis, this study proposes the us
 https://vimeo.com/1028776456
 
 # [New] Research Paper
-C. Lo, T. Y. Win, Z. Rezaeifar, Z. Khan and P. Legg, "Digital Twins of Cyber Physical Systems in Smart Manufacturing for Threat Simulation and Detection with Deep Learning for Time Series Classification," 2024 29th International Conference on Automation and Computing (ICAC), Sunderland, United Kingdom, 2024, pp. 1-6, doi: 10.1109/ICAC61394.2024.10718749. keywords: {Deep learning;Time series analysis;Threat assessment;Data models;Digital twins;Safety;Fourth Industrial Revolution;Security;Scenario generation;Smart manufacturing;digital twin;testbed;cyber security;threat simulation and detection;cyber physical systems},
+C. Lo, T. Y. Win, Z. Rezaeifar, Z. Khan and P. Legg, "Digital Twins of Cyber Physical Systems in Smart Manufacturing for Threat Simulation and Detection with Deep Learning for Time Series Classification," 2024 29th International Conference on Automation and Computing (ICAC), Sunderland, United Kingdom, 2024, pp. 1-6, doi: 10.1109/ICAC61394.2024.10718749. keywords: {Deep learning;Time series analysis;Threat assessment;Data models;Digital twins;Safety;Fourth Industrial Revolution;Security;Scenario generation;Smart manufacturing;digital twin;testbed;cyber security;threat simulation and detection;cyber physical systems}
+
+https://doi.org/10.1109/ICAC61394.2024.10718749
 
 # Overview of the Digital Twins Testbed Setup
 
